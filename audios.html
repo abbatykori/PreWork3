@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pre Work 3 - Team 2</title>
+<link type="text/css" media="all" rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/ionicons.min.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/font.css" >
+<link type="text/css" media="all" rel="stylesheet" href="styles/main.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/grid.css">
+<link media="screen" rel="stylesheet" href="styles/style_audio.css"  >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	
+</head>
+
+<body>
+
+<!-- wrapper -->
+<section class="wrapper">
+
+<!-- header -->
+<header class="main-header">
+
+<!-- container-auto -->
+<section class="container-auto clearfix">
+
+<!-- logo -->
+<div class="logo pull-left"><a href="./"><h2>ProJaro Music Inc</h2></a></div>
+<!-- /logo -->
+
+<!-- nav -->
+<nav class="nav pull-right">
+
+<ul class="clearfix">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="videos.html">Videos</a></li>
+						<li><a href="audios.html">Audios</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+
+</nav>
+<!-- /nav -->
+
+</section>
+<!-- /container-auto -->
+
+</header>
+<!-- /header -->
+<div class="sp1"></div>
+<!-- container-full -->
+<section class="container-full mrg-btm-20">
+<!-- banner -->
+<!-- /banner -->
+
+</section>
+<!-- /container-full -->
+
+<!-- container-auto -->
+<section class="container-auto mrg-btm-20">
+
+<!-- intro -->
+
+<!-- /intro -->
+
+</section>
+<!-- /container-auto -->
+
+
+
+<!-- container-auto -->
+<section class="container-auto">
+
+<!-- grid-row -->
+<div class="grid-row">
+
+<!-- column-4 -->
+<div class="column-4">
+
+<!-- latest-videos -->
+<div class="audio-player">
+		<h1>Demo - Preview Song</h1>
+		<img class="cover" src="img/cover.png" alt="">
+		<audio id="audio-player" src="media/demo.mp3" type="audio/mp3" controls="controls"></audio>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			$('#audio-player').mediaelementplayer({
+				alwaysShowControls: true,
+				features: ['playpause','volume','progress'],
+				audioVolume: 'horizontal',
+				audioWidth: 400,
+				audioHeight: 120
+			});
+		});
+	</script>
+<!-- /column-4 -->
+
+<!-- column-4 -->
+<div class="column-4">
+
+<!-- latest-music -->
+
+<!-- /latest-music -->
+
+</div>
+<!-- /column-4 -->
+
+</div>
+<!-- /grid-row -->
+
+<!--/container-auto -->
+
+<!-- footer -->
+<footer class="footer">
+
+<!-- container-auto -->
+<section class="container-auto"></section>
+<!-- /container-auto -->
+
+</footer>
+<!-- /footer -->
+
+<!-- /wrapper -->
+
+</body>
+</html>
